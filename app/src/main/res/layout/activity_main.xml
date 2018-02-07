@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_photo" />
+
+    <ImageView
+        android:id="@+id/udacity"
+        android:src="@drawable/udacity"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="dacity"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/street_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="2465 Latham St."
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="85dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Mountain View, CA 94043"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="63dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="650-555-5555"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Contact Us"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="115dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#03A9F4" />
+
+    <TextView
+        android:id="@+id/learners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Building a community of lifelong learners"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="54dp"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:textColor="#03A9F4"/>
+
+</RelativeLayout>
